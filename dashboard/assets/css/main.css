@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    text-decoration: none !important;
+}
+
+html {
+    font-size: 10px !important;
+}
+
+body {
+    display: flex;
+    background: #FFAA77;
+    height: 100vh;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    padding: 4rem 2rem;
+    width: 100%;
+    background-color: rgba(50, 50, 50, .3) !important;
+    backdrop-filter: blur(10px) !important;
+    box-shadow: 0 5px 25px 5px #212121 !important;
+    position: fixed;
+    z-index: 999;
+}
+
+.header > .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: x-large;
+}
+
+.nav p {
+    color: #EFEFEF;
+    font-weight: bold;
+}
+
+.nav button {
+    color: #EFEFEF;
+    background: transparent;
+    border: 2px solid #EFEFEF;
+    text-align: center;
+    padding: .5rem 1rem;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.main > .left-side {
+    flex: 1;
+    background-color: #212121;
+    box-shadow: 5px 0px 25px 5px #212121 !important;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.left-side > .navigation-link {
+    position: fixed;
+    background: transparent!;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.navigation-link > a {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    border: 2px solid #EFEFEF;
+    color: #EFEFEF;
+    font-weight: bold;
+    text-align: center;
+    font-size: medium;
+}
+
+.main > .right-side {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    overflow-y: scroll;
+    padding-right: 3rem;
+}
+
+.navigation-link > .active {
+    background: #EFEFEF;
+    color: #212121;
+}
+.footer {
+    background-color: rgba(50, 50, 50, .3) !important;
+    backdrop-filter: blur(10px) !important;
+    padding: 2rem 1rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
