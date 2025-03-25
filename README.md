@@ -3,7 +3,7 @@
 A dynamic portfolio creation platform that allows users to create, manage and showcase their professional portfolios, with built-in device compatibility checks for optimal viewing experience.
 
 ## Live Demo
-🚀 [View Live Demo](http://free-portfolio-php.great-site.net/)
+🚀 [View Live Demo](http://portfolio-managment-syst-php-mysql.great-site.net)
 
 ## Features
 
